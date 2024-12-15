@@ -1,14 +1,3 @@
-#include <iostream>
-using namespace std;
-#include <cstdlib>
-#include <ctime>
-#include <sstream>
-#include <string> 
-
-
-
-
-
 //рандомное число
 int RandomNumber(int start,int end){
     int number=rand()%(end-start+1)+start;
